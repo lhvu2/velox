@@ -40,6 +40,8 @@ add_executable(
   VectorTest.cpp
   VectorTestUtils.cpp
   VectorToStringTest.cpp
+  HelloWorldTestEnv.cpp
+  HelloWorldTest.cpp
 )
 
 add_test(velox_vector_test velox_vector_test)
@@ -103,3 +105,4 @@ target_link_libraries(
   glog::glog
   fmt::fmt
 )
+

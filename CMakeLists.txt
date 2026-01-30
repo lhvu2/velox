@@ -259,7 +259,7 @@ endif()
 
 if(${VELOX_ENABLE_DUCKDB})
   velox_set_source(DuckDB)
-  velox_resolve_dependency(DuckDB)
+  #velox_resolve_dependency(DuckDB)
 endif()
 
 if(VELOX_ENABLE_FAISS)
